@@ -1,2 +1,3 @@
-# pos
-A mobile Point of Sale service.
+# Simple POS
+
+A simple mobile Point of Sale system.

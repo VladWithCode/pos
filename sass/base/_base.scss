@@ -17,12 +17,12 @@ html {
     font-size: 50%; // 1rem == 8px
   }
 
-  @include respond('>=tablet', '<laptop') {
+  @include media('>=tablet', '<laptop') {
     font-size: 56.25%; // 1rem == 9px
   }
 
-  @include respond('>=desktop') {
-    font-size: 75%; // 1rem == 12px, 12/16
+  @include media('>=desktop') {
+    font-size: 75%; // 1rem == 12px
   }
 }
 
@@ -36,6 +36,7 @@ html,
 body,
 #root {
   height: 100%;
+  width: 100%;
   overflow-x: hidden;
 }
 

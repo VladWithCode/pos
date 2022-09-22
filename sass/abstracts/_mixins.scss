@@ -1,0 +1,6 @@
+@mixin animation($duration, $name, $delay) {
+  opacity: 1;
+  animation: $name $duration ease-in-out $delay;
+  backface-visibility: hidden;
+  animation-fill-mode: backwards;
+}
